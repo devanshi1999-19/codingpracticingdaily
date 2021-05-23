@@ -3,8 +3,8 @@
 using namespace std;
 int main(){
     map<string,string> m;
-    m["Shashank"] = "nowhere";
-    m["Shreya"]= "Microsoft";
+    m["AAhashank"] = "aaaaawhere";
+    m["Bhreya"]= "Microsoft";
     m["Nidhi"] = "Accenture";
     m["Love Babbar"] = "Amazon";
 
