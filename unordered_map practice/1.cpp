@@ -14,5 +14,5 @@ int main(){
     return 0;
 }
 
-//output for both map and unordered map is same
+//output for both map and unord ered map is same
 //earlier i tried this code for unordered map
