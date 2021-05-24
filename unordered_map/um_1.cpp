@@ -15,7 +15,7 @@ void printfrequencies(const string &str){
     }
 }
 int main(){
-    string strs = "Shashank Shashank Shashank Shashank Rustagi";
+    string strs = "Shashank Shashank  Shashank Shashank Rustagi";
     printfrequencies(strs);
     return 0;
 }
