@@ -14,10 +14,10 @@ int main(){
         long int l=1;
         long int r = n-1;
         int count =0;
-        while(l<n and r>n){
+        while(l<n && r>n/2){
+            count++;
             l++;
             r--;
-            count++;
         }
         cout<<count<<"\n";
     }
