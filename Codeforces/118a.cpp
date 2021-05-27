@@ -6,7 +6,7 @@ int main(){
     for(int i=0;i<s.size();i++)
     {
         transform(s.begin(), s.end(), s.begin(), ::tolower);
-        if(s[i]=='a' or s[i]=='e' or s[i]=='i' or s[i]=='o' or s[i]=='u' )
+        if(s[i]=='a' or s[i]=='e' or s[i]=='i' or s[i]=='o' or s[i]=='u'  or s[i]=='y')
             continue;
         else
             cout<<"."<<s[i];
