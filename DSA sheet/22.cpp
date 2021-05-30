@@ -23,9 +23,7 @@ int main()
         while (i < n and j < n)
         {
             if (v[i] < 0 and v[j] < 0)
-            {
                 j++;
-            }
             else if (v[i] < 0 and v[j] >= 0 and i!=j)
             {
                 swap(v[i], v[j]);
