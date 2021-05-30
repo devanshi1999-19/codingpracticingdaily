@@ -1,41 +1,49 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
+#define max 100000
 using namespace std;
-class Solution {
+class Solution
+{
 public:
-    int multiply(int x, int res[], int res_size)
+    int multiply(int x, int a[], int k)
     {
-    	int carry = 0;
-	    for (int i=0; i<res_size; i++)
-	    {
-		    int prod = res[i] * x + carry;
-		    res[i] = prod % 10;
-		    carry = prod/10;
-	    }
-	    while (carry)
-	    {
-		    res[res_size] = carry%10;
-		    carry = carry/10;
-		    res_size++;
-	    }
-	    return res_size;
+        int carry = 0;
+        for (int i = 0; i < k; i++)
+        {
+            int prod = a[i] * x + carry;
+            a[i] = prod % 10;
+            carry = prod / 10;
+        }
+        while (carry)
+        {
+            a[k] = carry % 10;
+            carry = carry / 10;
+            k++;
+        }
+        return k;
     }
     vector<int> factorial(int n)
     {
-    
-	    int res[10000];
+
+        int a[max];
         vector<int> v;
-	    res[0] = 1;
-	    int res_size = 1;
-	    for (int x=2; x<=n; x++)
-		    res_size = multiply(x, res, res_size);
-	    for (int i=res_size-1; i>=0; i--)
-	        v.push_back(res[i]);
-	    return v;
+        a[0] = 1;
+        int k = 1;
+        for (int x = 2; x <= n; x++)
+            k = multiply(x, a, k);
+        for (int i = k - 1; i >= 0; i--)
+            v.push_back(a[i]);
+        return v;
     }
 };
-int main(){
+int main()
+{
     Solution s;
-    vector<int> v1 = s.factorial(100);
-    for(auto x:v1) cout<<x;
+    int n;
+    cin >> n;
+    cout << n << "!=  ";
+    vector<int> v1 = s.factorial(n);
+    for (auto x : v1)
+        cout << x;
+    cout << endl;
     return 0;
 }
