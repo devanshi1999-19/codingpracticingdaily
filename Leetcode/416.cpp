@@ -11,6 +11,7 @@ bool canpartition(vector<int> &a)
     sum /= 2;
 
     vector<vector<bool>> dp(n + 1, vector<bool>(sum + 1, false));
+    // creating memoized table for dp having all set with false initially.
     for (int i = 0; i <= n; i++)
     {
         for (int j = 0; j <= sum; j++)
