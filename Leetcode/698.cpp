@@ -120,6 +120,6 @@ int main()
     if (s.canPartitionKSubsets(v, k))
         cout << "Yes, can be partitioned\n\n";
     else
-        cout << "Cannot be partitioned\n\n";
+        cout << "No, Cannot be partitioned\n\n";
     return 0;
 }
