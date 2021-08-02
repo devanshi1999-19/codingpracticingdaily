@@ -1,0 +1,107 @@
+Quiz questions
+
+0. Title: Wasted Pointers
+Description: The Number of wasted pointers in a complete binary tree of N nodes is ?
+
+0.N + 1
+1.N
+2.2*N
+3.N*N
+
+
+
+1. Title: BST - Searching
+Description: A binary search tree has numbers between 1 and 1000. On search to find the number 363, which of the following sequence could not be the correct one
+
+0.2 , 399 , 387 , 219 , 266 , 382 , 381 , 278 , 363
+1.925 , 202 , 911 , 240 , 912 , 245 , 363
+2.924 , 220 , 911 , 244 , 898 , 258 , 362 , 363
+3.2 , 252 , 401 , 398 , 330 , 344 , 397 , 363
+
+
+
+2. Title: Perfect Binary Tree
+Description: For a perfect binary tree of height h and n nodes the sum of heights of all the nodes is:
+
+0.O(h*h)
+1.O(h)
+2.O(n*n)
+3.O(n)
+
+
+
+3. Title: Unique Combination
+Description: Which of the following combinations uniquely identifies a tree:
+
+0.Postorder and Preorder
+1.Preorder and Level-Order
+2.Postorder and Level-Order
+3.Preorder and Inorder
+
+
+
+4. Title: Balanced Tree
+Description: In the balanced binary tree in the figure given below, which nodes will become unbalanced when a node is inserted as a child of the node “g”?
+
+![](https://minio.codingblocks.com/amoeba/BalancedTree.png)
+
+
+0.c
+1.c,b,a
+2.c,b
+3.c,a,e
+
+
+
+5. Title: Binary Tree as array
+Description: A scheme for storing binary trees in an array X is as follows. Indexing of X starts at 1 instead of 0. the root is stored at X[1]. For a node stored at X[i], the left child, if any, is stored in X[2i] and the right child, if any, in X[2i+1]. To be able to store any binary tree on n vertices the minimum size of X should be.
+
+0.2^(n) - 1
+1.2*n*n
+2.n*n
+3.2^n
+
+
+
+6. Title: BT and BST
+Description: Total no of binary trees and binary search trees with n nodes is:
+
+0.C(2n,n)/ n+1  , C(2n,n)/ n+1
+1.(C(2n,n)* n! )/ n+1  , (C(2n,n)* n! )/ n+1
+2.C(2n,n)/ n+1  , (C(2n,n)* n! )/ n+1
+3.(C(2n,n)* n! )/ n+1  , C(2n,n)/ n+1
+
+
+
+7. Title: BST- Traversing
+Description:     13) Postorder traversal of a given binary search tree is:
+10, 3, 2, 5, 6, 4, 8, 11, 9, 15, 20, 19, 12, 7 <br>
+   	The inorder traversal of the tree would be:
+
+0.Is not unique
+1.7, 4, 2, 3, 6, 5,10, 12, 9, 8, 11, 19, 15, 20
+2.20, 10, 2, 3, 5, 8, 9, 12 , 11 ,15 ,4, 6, 7, 19
+3.2, 3, 4, 5, 6, 7, 8 , 9, 10, 11, 12, 15, 19, 20
+
+
+
+8. Title: Binary Tree - Leaf Node
+Description: The number of nodes in a perfect binary tree of height h which are not leaf nodes are:
+
+0.2^(2*h) + 1
+1.2^h
+2.2^(h+1) - 1
+3.2^h - 1
+
+
+
+9. Title: BST - deletion
+Description: During deletion of a node with 2 children in BST, the node is replaced by:
+
+0.Preorder successor or Preorder predecessor
+1.Inorder successor or Inorder predecessor
+2.Postorder successor or Postorder predecessor
+3.Any one of the above
+
+
+
